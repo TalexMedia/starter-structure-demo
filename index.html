@@ -186,6 +186,11 @@ body{background:var(--bg);min-height:100vh}
 .why-item strong{color:var(--txt);font-weight:600}
 .why-icon{flex-shrink:0;width:16px;height:16px;margin-top:1px}
 .why-icon svg{width:16px;height:16px;display:block;stroke:var(--o);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.dir-list{list-style:none;padding:0;margin:0.6rem 0 1rem;display:flex;flex-direction:column;gap:0.65rem}
+.dir-item{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.7;color:var(--txt2)}
+.dir-item strong{color:var(--txt);font-weight:500}
+.dir-icon{flex-shrink:0;width:17px;height:17px;margin-top:3px}
+.dir-icon svg{width:17px;height:17px;display:block;stroke:var(--o);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
 
 .reel-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:0.5rem}
 @media(max-width:560px){.reel-grid{grid-template-columns:1fr}}
@@ -676,12 +681,12 @@ body{background:var(--bg);min-height:100vh}
   <div class="section-block">
     <p>Legendeering is Talex's proprietary strategy. The core principle is straightforward: lead with value, always. The brand earns trust by giving without expectation, and that trust grows over time because people keep choosing to watch.</p>
     <p>Five directives drive it:</p>
-    <ul style="list-style:none;padding:0;margin:0.5rem 0 1rem">
-      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Give Without Expectation.</strong> Value delivered without strings. The kind of generosity that builds loyalty money cannot buy.</li>
-      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Be Relentlessly Authentic.</strong> Say true things. Show real work. Speak like a human being.</li>
-      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">It's Not About You. It's About Them.</strong> The audience has to come first. It's all about their wants and needs and making something they will choose to watch.</li>
-      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Start With Story, Follow With Facts.</strong> Story gives information shape, context, and emotional weight. Facts alone rarely move people.</li>
-      <li style="position:relative;padding-left:16px;margin-bottom:7px;font-size:14px;line-height:1.7;color:var(--txt2)"><span style="position:absolute;left:4px;top:-1px;color:var(--o);font-weight:700;font-size:18px;line-height:1">·</span><strong style="color:var(--txt);font-weight:500">Consistency Is Key.</strong> Trust is built in moments, repeated over time.</li>
+    <ul class="dir-list">
+      <li class="dir-item"><span class="dir-icon"><svg viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span><span><strong>Give Without Expectation.</strong> Value delivered without strings. The kind of generosity that builds loyalty money cannot buy.</span></li>
+      <li class="dir-item"><span class="dir-icon"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span><span><strong>Be Relentlessly Authentic.</strong> Say true things. Show real work. Speak like a human being.</span></li>
+      <li class="dir-item"><span class="dir-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span><strong>It's Not About You. It's About Them.</strong> The audience has to come first. It's all about their wants and needs and making something they will choose to watch.</span></li>
+      <li class="dir-item"><span class="dir-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span><span><strong>Start With Story, Follow With Facts.</strong> Story gives information shape, context, and emotional weight. Facts alone rarely move people.</span></li>
+      <li class="dir-item"><span class="dir-icon"><svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span><span><strong>Consistency Is Key.</strong> Trust is built in moments, repeated over time.</span></li>
     </ul>
     <p>Hungryroot is expert at getting the right food to the right person at scale. Talex would add the video: a documentary series, a single film for the homepage, and fresh cuts from the footage you already have, each one built on the method above. The three concepts came straight out of it.</p>
   </div>
