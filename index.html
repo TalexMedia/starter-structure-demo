@@ -240,6 +240,14 @@ body{background:var(--bg);min-height:100vh}
 .byline-imdb{flex-shrink:0;display:inline-flex;align-items:center;text-decoration:none;transition:transform 0.15s ease}
 .byline-imdb:hover{transform:translateY(-1px)}
 .byline-imdb img{height:22px;width:auto;display:block;border-radius:3px}
+.trust-strip{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:1.6rem;padding:1.15rem 0 0.35rem}
+.trust-logo{width:auto;object-fit:contain;display:block;opacity:0.9}
+.trust-logo.discovery{height:22px}
+.trust-logo.nbc{height:15px}
+.trust-logo.bbc{height:24px}
+.trust-emmy{display:inline-flex;flex-direction:column;align-items:center;line-height:1.1;text-align:center}
+.trust-emmy .n{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:0.03em;color:var(--o);line-height:1}
+.trust-emmy .t{font-family:'Oswald',sans-serif;font-size:8px;font-weight:500;letter-spacing:0.13em;text-transform:uppercase;color:var(--txt3);margin-top:1px}
 
 .brand-mark-row{display:flex;align-items:center;gap:14px;margin-bottom:1.25rem;flex-wrap:wrap}
 .brand-logo-wrap{width:56px;height:56px;border-radius:10px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:6px;flex-shrink:0}
@@ -415,6 +423,14 @@ body{background:var(--bg);min-height:100vh}
     <a class="byline-imdb" href="https://www.imdb.com/name/nm5209355/" target="_blank" rel="noopener" aria-label="Tom Langan on IMDb">
       <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDb"/>
     </a>
+  </div>
+
+  <!-- Broadcaster trust strip, below the byline -->
+  <div class="trust-strip">
+    <img class="trust-logo discovery" src="https://upload.wikimedia.org/wikipedia/commons/2/27/Discovery_Channel_-_Logo_2019.svg" alt="Discovery"/>
+    <img class="trust-logo nbc" src="https://upload.wikimedia.org/wikipedia/commons/e/ef/NBCUniversal_Logo.svg" alt="NBCUniversal"/>
+    <img class="trust-logo bbc" src="https://upload.wikimedia.org/wikipedia/commons/4/41/BBC_Logo_2021.svg" alt="BBC"/>
+    <span class="trust-emmy"><span class="n">2×</span><span class="t">Emmy Award Nominee</span></span>
   </div>
 
   <!--
