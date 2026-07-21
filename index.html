@@ -237,6 +237,9 @@ body{background:var(--bg);min-height:100vh}
 .byline-body{flex:1;min-width:0}
 .byline-name{font-family:'Oswald',sans-serif;font-weight:600;font-size:14px;color:var(--txt);letter-spacing:0.03em}
 .byline-sub{font-size:12px;color:var(--txt2);line-height:1.5;margin-top:2px}
+.byline-imdb{flex-shrink:0;display:inline-flex;align-items:center;text-decoration:none;transition:transform 0.15s ease}
+.byline-imdb:hover{transform:translateY(-1px)}
+.byline-imdb img{height:22px;width:auto;display:block;border-radius:3px}
 
 .brand-mark-row{display:flex;align-items:center;gap:14px;margin-bottom:1.25rem;flex-wrap:wrap}
 .brand-logo-wrap{width:56px;height:56px;border-radius:10px;background:var(--surface);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:6px;flex-shrink:0}
@@ -409,6 +412,9 @@ body{background:var(--bg);min-height:100vh}
       <div class="byline-name">Prepared by Tom Langan · Founder, Talex Media</div>
       <div class="byline-sub">Author of <em>Legendeering</em></div>
     </div>
+    <a class="byline-imdb" href="https://www.imdb.com/name/nm5209355/" target="_blank" rel="noopener" aria-label="Tom Langan on IMDb">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" alt="IMDb"/>
+    </a>
   </div>
 
   <!--
