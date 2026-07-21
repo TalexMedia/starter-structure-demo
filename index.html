@@ -179,6 +179,13 @@ body{background:var(--bg);min-height:100vh}
 .idea-tag{margin-top:10px;font-family:'Oswald',sans-serif;font-size:10px;letter-spacing:0.12em;color:var(--o);text-transform:uppercase;font-weight:600}
 .idea-tag a{color:inherit;text-decoration:none;border-bottom:1px dotted var(--o)}
 .idea-tag a:hover{border-bottom-style:solid}
+.why-block{margin-top:0.95rem;padding-top:0.9rem;border-top:1px solid var(--border)}
+.why-label{font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--o);margin-bottom:0.65rem}
+.why-list{display:flex;flex-direction:column;gap:0.55rem}
+.why-item{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--txt2);line-height:1.5}
+.why-item strong{color:var(--txt);font-weight:600}
+.why-icon{flex-shrink:0;width:16px;height:16px;margin-top:1px}
+.why-icon svg{width:16px;height:16px;display:block;stroke:var(--o);stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
 
 .reel-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:0.5rem}
 @media(max-width:560px){.reel-grid{grid-template-columns:1fr}}
@@ -600,9 +607,13 @@ body{background:var(--bg);min-height:100vh}
         <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">The Series · Flagship, ongoing</div>
         <div class="idea-title">"Health Journey"</div>
         <div class="idea-desc">Back in 2021 Hungryroot made a short series called Health Journey that followed real customers changing how they eat. It ran four parts, picked up a few hundred views, and stopped. The instinct was right. What it needed was a real commitment behind it.<br/><br/>Health Journey comes back as a returning documentary series. Each episode follows one real person over a few months as they rebuild the way they cook and eat at home, with a Hungryroot chef in their corner the whole way. Chef Kara, Chef Jason, or Chef Danielle helps them plan, shop, cook, and actually stick with it.<br/><br/>You meet someone who is sick of takeout and has no idea where to start. You watch the first messy week in their kitchen, and you are there a few months later when making dinner stops feeling like work.<br/><br/>Queer Eye pulled in millions by putting one real person and one real problem at the center of every episode, with experts who genuinely help. Health Journey does that for the part of life that happens three times a day, and Hungryroot is the partner who makes the change stick.</div>
-        <div style="margin-top:0.9rem;padding-top:0.8rem;border-top:1px solid var(--border)">
-          <div style="font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--o);margin-bottom:5px">Why long-form episodic content wins long-term</div>
-          <div style="font-size:12.5px;color:var(--txt2);line-height:1.65">One video gets watched and forgotten. A returning series is what compounds, because the whole Legendeering idea is that trust is built in small moments repeated over time, and every episode is one more of them. A year of episodes leaves you with an audience that keeps choosing you, not a spot someone scrolled past once.</div>
+        <div class="why-block">
+          <div class="why-label">Why long-form episodic content wins long-term</div>
+          <div class="why-list">
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></span><span><strong>One-off videos get forgotten.</strong> A returning series is what compounds.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span><span>Trust builds in <strong>small moments repeated over time</strong>, and each episode is one more.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span>A year of episodes earns <strong>a loyal audience</strong>, not a spot someone scrolled past.</span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -613,9 +624,13 @@ body{background:var(--bg);min-height:100vh}
         <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">A Single Film · one-time</div>
         <div class="idea-title">"The Homepage Film"</div>
         <div class="idea-desc">Right now the Hungryroot homepage runs entirely on animation and photography. For a brand with 14 million deliveries behind it, there is no video anywhere on the page.<br/><br/>This one is a single film, not a series. Two to three minutes at the top of the site: what Hungryroot is, who it is for, and what it actually feels like to eat this way, told through one or two real customers and Ben's own reason for starting it.<br/><br/>A visitor lands on the page, presses play, and in three minutes understands the whole thing better than the feature list ever gets across.<br/><br/>It is the one asset the site is missing, and the kind of film a strong landing page tends to be built around.</div>
-        <div style="margin-top:0.9rem;padding-top:0.8rem;border-top:1px solid var(--border)">
-          <div style="font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--o);margin-bottom:5px">Why one brand film is worth making</div>
-          <div style="font-size:12.5px;color:var(--txt2);line-height:1.65">Your homepage does the most important job on the site, and right now it does it with a feature list. Legendeering starts with story before facts, because facts on their own rarely move anyone. A single film gives a first-time visitor the feeling behind the product in less time than it takes to read the page.</div>
+        <div class="why-block">
+          <div class="why-label">Why one brand film is worth making</div>
+          <div class="why-list">
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></span><span>Your homepage's most important job is done with <strong>a feature list</strong> right now.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span><span>Legendeering <strong>leads with story</strong>, because facts on their own rarely move anyone.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span><span>One film gives a first-time visitor <strong>the feeling behind the product</strong> in seconds.</span></div>
+          </div>
         </div>
       </div>
     </div>
@@ -626,9 +641,13 @@ body{background:var(--bg);min-height:100vh}
         <div style="display:block;font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--o);margin-bottom:6px">From Footage You Already Have · fast</div>
         <div class="idea-title">"New Cuts From Your Existing Library"</div>
         <div class="idea-desc">Hungryroot already has 211 videos on its channel, and one 31-second spot has done more than 40 million views. Most of that reach was paid, and the library keeps growing every week.<br/><br/>This one is not a shoot. It is an edit. We take footage Hungryroot already owns and cut fresh paid-ad creative from it: new hooks, new angles, new lengths built for Meta, YouTube, and TikTok. A short sales video for the site can come out of the same material.<br/><br/>Fresh creative is the biggest lever on what a paid account gives back. The footage exists and most of the cost is already spent, so this is the quickest way to put video against a number the team is already spending against.<br/><br/>It is also the easiest place to begin. Send us the drive, and a couple of weeks later you have a batch of new ads to test.</div>
-        <div style="margin-top:0.9rem;padding-top:0.8rem;border-top:1px solid var(--border)">
-          <div style="font-family:'Oswald',sans-serif;font-size:10px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--o);margin-bottom:5px">Why fresh cuts from your own footage win</div>
-          <div style="font-size:12.5px;color:var(--txt2);line-height:1.65">The footage is already shot and most of the spend is already committed, so this is the fastest way to see what stronger video does to a real number. And even a paid ad works harder when it leads with a story instead of a sell, which is Legendeering applied to the creative you are already running.</div>
+        <div class="why-block">
+          <div class="why-label">Why fresh cuts from your own footage win</div>
+          <div class="why-list">
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg></span><span>The footage is <strong>already shot</strong> and the ad spend is already committed.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></span><span>The <strong>fastest way</strong> to see what stronger video does to a real revenue number.</span></div>
+            <div class="why-item"><span class="why-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span><span>A paid ad works harder when it <strong>leads with story</strong>, not a sell.</span></div>
+          </div>
         </div>
       </div>
     </div>
